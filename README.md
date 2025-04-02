@@ -102,7 +102,7 @@ Thanks to our friends from **Vector35** you have access to a fully functional **
 
 Here are a few clews :
 
-#### g1) Bookmarks view   
+#### 1) Bookmarks view   
 **Bookmarks** allow to anotate and/or describe anything for any transitions. It is then quite easy to move around and start from these points.
 
 <div class="alert alert-block alert-info">

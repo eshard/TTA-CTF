@@ -102,7 +102,7 @@ Thanks to our friends from **Vector35** you have access to a fully functional **
 
 Here are a few clews :
 
-#### 1) Bookmarks view   
+#### g1) Bookmarks view   
 **Bookmarks** allow to anotate and/or describe anything for any transitions. It is then quite easy to move around and start from these points.
 
 <div class="alert alert-block alert-info">
@@ -118,28 +118,28 @@ The **Bookmarks** entry are shown with a yellow star in the disassembly:
 
 <img src='./images/bookmark_visuel.png'>
 
-#### 2) Search view
+#### 2) Search view
 
 From this view, you can search for interesting points in the trace.
 For example, every transitions that belong to a certain binary. Or you can search for each time a particular function is executed.
 
 <img src='./images/search_view.png'>
 
-#### 3) Physical history view
+#### 3) Physical history view
 
 This view allows you to track read/write accesses in the entire trace to a particular physical memory range.
 
 <img src='./images/physical_history_view.png'>
 
 
-#### 4) Strings view
+#### 4) Strings view
 
 The Strings view allows displaying and filtering all accessed memory buffers in the trace that look like valid strings.
 This is **not** the static strings from your usual favorite reverse engineering tool (strings), these are from the runtime in the trace.
 
 <img src='./images/strings_view.png'>
 
-#### 5) Taint Analysis view
+#### 5) Taint Analysis view
 
 The taint view allows to follow the data flow in the trace, either forward or backward.    
 The taint analysis automates the task of following some data from memory buffers and registers to other buffers.    
@@ -147,14 +147,14 @@ When performing a backward taint, it allows to find the origin of the tainted da
 
 <img src='./images/taint_analysis_view.png'>
 
-#### 6) Calltree view
+#### 6) Calltree view
 
 The Calltree view provides a tree representation of the ancestor and sibling calls around the currently selected transition in the Trace view.     
 This calltree is dependent on the stack currently in use, and as such is local to the current process and thread.
 
 <img src='./images/calltree_view.png'>
 
-#### 7) Backtrace view
+#### 7) Backtrace view
 
 The Backtrace view provides a list of nested calls for the currently selected transaction in the Trace view, akin to what would be expected in a debugger.    
 This backtrace is dependent on the stack currently in use, and as such is local to the current process and thread.
